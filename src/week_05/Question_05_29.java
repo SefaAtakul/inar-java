@@ -16,7 +16,12 @@ public class Question_05_29 {
         int year = input.nextInt();
         int firstDayOfTheYear =input.nextInt();
 
-        
+        for (int i = 1 ;i <= 12 ; i++ ){
+
+            System.out.println("-----------------------------------------");
+        }
+
+
 
 
 
