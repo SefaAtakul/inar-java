@@ -6,7 +6,8 @@ public class Question_05_15 {
         int count = 0  ;
 
         for (int i = 33; i <= 127 ; i++){
-            System.out.printf( "%d : %c ",i,i);
+            System.out.print((count%10==0)?("\n"+(char)(i)+" "):((char)(i)+" "));
+            count++;
         }
 
     }
