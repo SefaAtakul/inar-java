@@ -7,7 +7,7 @@ public class Question_09_07_Account {
     private double balance;
     private double annualInterestRate;
     private final Object dataCreated = new Date();
-public Question_09_07_Account(){};
+public Question_09_07_Account(int i, int i1){};
     public Question_09_07_Account(int id,double balance,double annualInterestRate){
         this.id = id ;
         this.balance=balance;
