@@ -1,4 +1,4 @@
-package week_12;
+package week_12.Examples;
 
 public class ChainedException {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package week_12;
+package week_12.Examples;
 
 import java.io.File;
 import java.util.Scanner;
