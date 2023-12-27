@@ -1,7 +1,7 @@
-package week_16.Test;
+package test.java;
 
+import main.java.AgeRestrictionValidator;
 import org.junit.jupiter.api.Test;
-import week_16.Main.AgeRestrictionValidator;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -48,7 +48,6 @@ class AgeRestrictionValidatorTest {
         boolean result = ageValidator.isValid(1000);
         assertTrue(result,"1000 is invalid value...");
     }
-
 
 
 }

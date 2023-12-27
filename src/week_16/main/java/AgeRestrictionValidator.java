@@ -1,4 +1,4 @@
-package week_16.Main;
+package main.java;
 
 public class AgeRestrictionValidator {
     private static final int MIN_AGE = 18;
@@ -9,6 +9,6 @@ public class AgeRestrictionValidator {
      * @return true If ıt is ın the legal rang,otherwise return false...
      */
     public boolean isValid(int age){
-        return age <= MIN_AGE && age <= MAX_AGE;
+        return age >= MIN_AGE && age <= MAX_AGE;
     }
 }
